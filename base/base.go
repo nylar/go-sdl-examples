@@ -10,7 +10,7 @@ var (
 	WindowTitle         = "Game"
 	WindowWidth         = 720
 	WindowHeight        = 640
-	WindowOpt    uint32 = sdl.WINDOW_OPENGL
+	WindowOpt    uint32 = sdl.WINDOW_OPENGL | sdl.WINDOW_FULLSCREEN
 )
 
 type Game struct {
